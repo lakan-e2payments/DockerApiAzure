@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerApiAzure", "DockerApiAzure\DockerApiAzure.csproj", "{B4846715-8A13-4CD4-AF40-A82CCEF8680D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerApiAzure.Test", "DockerApiAzure.Test\DockerApiAzure.Test.csproj", "{B6C86330-B2B9-410B-A821-A921E1532DFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B4846715-8A13-4CD4-AF40-A82CCEF8680D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4846715-8A13-4CD4-AF40-A82CCEF8680D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4846715-8A13-4CD4-AF40-A82CCEF8680D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6C86330-B2B9-410B-A821-A921E1532DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C86330-B2B9-410B-A821-A921E1532DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C86330-B2B9-410B-A821-A921E1532DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C86330-B2B9-410B-A821-A921E1532DFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

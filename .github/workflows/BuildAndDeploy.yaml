@@ -22,3 +22,6 @@ jobs:
 
       - name: Build Project ⚒️
         run: dotnet build -c Release --no-restore
+
+      - name: Test Project 🔍
+        run: dotnet test - Release
