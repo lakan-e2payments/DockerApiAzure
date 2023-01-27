@@ -49,4 +49,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: e2payments/dockerapi:latest
+          tags: lakandula/dockerapi:latest
