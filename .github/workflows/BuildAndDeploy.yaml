@@ -50,3 +50,9 @@ jobs:
           context: .
           push: true
           tags: johnjalani/dockerapi:latest
+
+      - name: SSH Dev 📡
+        run: ssh -i ${{ SSH_PRIVATE_PEM }} ec2-user@ec2-184.169.186.170.us-west-1.compute.amazonaws.com
+
+      - name: Docker ps
+        run: docker ps
