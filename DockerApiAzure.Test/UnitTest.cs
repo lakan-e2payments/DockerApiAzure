@@ -1,4 +1,5 @@
 using DockerApiAzure.Controllers;
+using Microsoft.Extensions.Logging;
 
 namespace DockerApiAzure.Test
 {
