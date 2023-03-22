@@ -23,5 +23,11 @@ namespace DockerApiAzure.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("ping")]
+        public IActionResult Ping()
+        {
+            return Ok($"Pong - {DateTime.Now.ToLongDateString()}");
+        }
     }
 }
