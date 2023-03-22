@@ -24,7 +24,7 @@ namespace DockerApiAzure.Controllers
             .ToArray();
         }
 
-        [HttpGet("ping")]
+        [HttpPost(Name = "PostWeatherForecast")]
         public IActionResult Ping()
         {
             return Ok($"Pong - {DateTime.Now.ToLongDateString()}");
