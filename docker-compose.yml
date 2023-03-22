@@ -1,8 +1,5 @@
-version: '3.5'
 services:
-  dockerapp:
-    image: dockerapi
-    build:
-      dockerfile: Dockerfile
-     ports:
-      - 80:1020
+  web:
+    build: app
+    ports:
+    - 80:1020
