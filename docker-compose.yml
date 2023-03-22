@@ -1,5 +1,8 @@
+version: '3'
 services:
-  web:
-    build: .
-    ports:
-    - 80:80
+  dockerapp:
+    image: dockerapi
+    build:
+      dockerfile: Dockerfile
+     ports:
+      - "1020:80"
