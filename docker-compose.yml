@@ -1,8 +1,14 @@
-version: '3'
+version: '3.5'
 services:
-  dockerapp:
-    image: dockerapi
-    build:
-      dockerfile: Dockerfile
-     ports:
-      - "1020:80"
+  Api.Service:
+   image: ${DOCKER_REGISTRY-}dockerapiazure:v1
+   build:
+    context: ./DockerApiAzure
+    dockerfile: Dockerfile
+   environment:
+    - ASPNETCORE_ENVIRONMENT=Production
+    - ASPNETCORE_URLS=http://+:80
+   ports:
+    - "8081:80"
+   volumes:
+    - ~/.aspnet/http:/http:ro
