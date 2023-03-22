@@ -1,5 +1,7 @@
 services:
   web:
-    build: app
+    build:
+      context: ./DockerApiAzure
+      dockerfile: Dockerfile
     ports:
     - 80:1020
