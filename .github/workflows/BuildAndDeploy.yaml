@@ -57,5 +57,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           ##aws_session_token: ${{ secrets.AWS_SESSION_TOKEN }}
+          aws_ami_id: ami-0762f1d7b8fd82833
           aws_default_region: us-west-1
           app_port: 1020
